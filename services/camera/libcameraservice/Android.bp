@@ -38,8 +38,13 @@ license {
 cc_library_shared {
     name: "libcameraservice",
     defaults: [
+<<<<<<< HEAD
         "uses_oplus_camera_defaults",
         "uses_nothing_camera_defaults",
+=======
+        "includes_miui_camera",
+        "uses_miui_camera_defaults",
+>>>>>>> bbe7ef76a1 (libcameraservice: Import Xiaomi Modifications for vendor tags)
     ],
 
     // Camera service source
